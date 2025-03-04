@@ -1,5 +1,4 @@
-export * from './auth.module';
-export * from './auth.routing';
+export * from './auth.routes';
 export * from './guard/authentication.guard';
 export * from './login/login.component';
 

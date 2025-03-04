@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
-import { AuthenticationGuard } from './auth';
+import { AuthenticationGuard } from '@pages/auth';
 
 export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/login' },
   {
     path: '',
     loadChildren: () =>
-      import('./auth/auth.routing').then((m) => m.AuthRouting),
+      import('./pages/auth/auth.routes').then((m) => m.AUTH_ROUNTES),
   },
   {
     path: 'dashboard',

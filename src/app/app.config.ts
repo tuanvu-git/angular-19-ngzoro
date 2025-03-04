@@ -34,14 +34,13 @@ import {
 } from './@core/interceptors';
 import { SocketIoModule } from './@core/socket-io';
 import { routes } from './app.routes';
-import { AuthModule } from './auth';
 import { icons } from './icons-provider';
 
 const ngZorroConfig: NzConfig = {
   message: { nzTop: 120 },
   notification: { nzTop: 240 },
   theme: {
-    primaryColor: '#1890ff',
+    primaryColor: 'red',
   },
 };
 
@@ -52,7 +51,6 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     // provideRouter(routes),
     importProvidersFrom(
-      AuthModule,
       SocketIoModule.forRoot({
         rootUrl: null, // TODO: provide your own socket.io server URL
         options: {

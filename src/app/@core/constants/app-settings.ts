@@ -1,8 +1,9 @@
-import { ROLE } from '../../auth/enums/roles.enum';
 
 // TODO: Implement the permissions as per your application requirements.
 // Either fetch it from the server or define it in the client. if you have constant permissions, you can define it in below format and move this in core constants folder.
 // If you have different structure, you have to modify the permissions setup as per your requirement in this file.
+
+import { ROLE } from "@app/pages/auth";
 
 /**
  * The `appSetting` object contains the role-based permissions for the application.

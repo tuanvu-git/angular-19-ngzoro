@@ -7,7 +7,8 @@ import {
   RouterStateSnapshot,
 } from '@angular/router';
 import { PermissionService } from '@app/@core/services';
-import { PERMISSIONS, ROLE } from '@auth';
+import { PERMISSIONS } from '../enums/permissions.enum';
+import { ROLE } from '../enums/roles.enum';
 
 /**
  * The `PermissionGuard` function checks for required roles and permissions before

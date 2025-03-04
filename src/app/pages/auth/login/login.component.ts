@@ -7,7 +7,6 @@ import { AuthenticationService } from '@app/@core/services';
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
-  standalone: false,
 })
 export class LoginComponent {
   // version: string | null = environment.version;

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { PERMISSIONS, ROLE } from '@app/auth';
+import { PERMISSIONS, ROLE } from '@app/pages/auth';
 import { appSetting } from '@core/constants';
 import { ICredentials } from '../interfaces/credential';
 import { CredentialsService } from './credentials.service';

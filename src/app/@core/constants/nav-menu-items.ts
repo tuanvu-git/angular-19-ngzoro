@@ -1,5 +1,5 @@
+import { PERMISSIONS } from '@app/pages/auth';
 import { NavMenuItem } from '@core/interfaces';
-import { PERMISSIONS } from '../../auth/enums/permissions.enum';
 
 // THIS FILE CONTAINS THE NAVIGATION MENU ITEMS FOR THE SIDEBAR AND ALL OTHER NAVIGATION MENUS WHICH ARE USED IN THE APPLICATION AND ARE CONSTANT
 
